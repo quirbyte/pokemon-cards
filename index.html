@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokémon Cards</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Pokémon Cards</h1>
+
+    <div class="controls">
+      <input type="number" id="count" placeholder="Number of Pokémon" min="1" />
+      <select id="type">
+        <option value="all">All</option>
+        <option value="fire">Fire</option>
+        <option value="water">Water</option>
+        <option value="grass">Grass</option>
+        <option value="electric">Electric</option>
+        <option value="psychic">Psychic</option>
+      </select>
+      <button id="loadBtn">Gotcha!</button>
+    </div>
+
+    <div id="cards" class="cards"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

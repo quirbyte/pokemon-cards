@@ -1,19 +1,25 @@
+# 🧩 Pokémon Cards App
 
-# The-Pokémon
+A simple frontend web application that displays Pokémon cards using the **PokeAPI**.  
+Users can select the **number of Pokémon cards** and **filter them by type** (category).
 
-Your task is to design and implement an application that display Pokémon Cards.
+---
 
-- user comes to site and enter number of cards and select category of Pokémon.
+## 🚀 Features
 
-**Hint**: take category and no of Pokémon, use API and render.
+- 🔢 Select number of Pokémon cards to display
+- 🧬 Filter Pokémon by type (fire, water, grass, etc.)
+- 🎴 Displays Pokémon image, name, and types
+- 🔄 Random Pokémon generation
+- ⚡ Uses live data from PokeAPI
+- 💻 Built with HTML, CSS, JavaScript, and Axios
 
-## Resources:
+---
 
-- refer this: https://pokeapi.co/
-- use this `https://pokeapi.co/api/v2/pokemon/${id}` api to get the pokemon data by id.
+## 🛠️ Tech Stack
 
-**Note**: here id is a number. for example `https://pokeapi.co/api/v2/pokemon/1`
-
-
-
-
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Axios**
+- **PokeAPI**
